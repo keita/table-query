@@ -50,6 +50,10 @@ Now we can query table data by number or char like following:
     table.number_to_char(1).entries  # => [:a, :b, :c]
     table.char_to_number(:b).entries # => [1, 3]
 
+## API
+
+[API document is on github.](http://keita.github.com/table-query/api/frames.html)
+
 ## Todo
 
 * search tool
