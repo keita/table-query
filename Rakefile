@@ -1,5 +1,10 @@
 require "bundler/gem_tasks"
 
+desc 'Test specs'
+task 'test' do
+  sh "bundle exec bacon -a"
+end
+
 desc 'Generate API document'
 task 'html' do
   sh "yard doc -o html --hide-void-return --no-api"
