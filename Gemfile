@@ -1,0 +1,4 @@
+# -*- ruby -*-
+
+source :rubygems
+gemspec
