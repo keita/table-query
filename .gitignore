@@ -1,7 +1,0 @@
-html
-*~
-Gemfile.lock
-gems
-.bundle
-.yardoc
-pkg
